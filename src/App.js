@@ -83,7 +83,7 @@ const [totalInterest, setTotalInterest] = useState(null);
               <input type="text"
                 onChange={(e) => setDuration(e.target.value)}
                 value={duration}
-                placeholder='10'
+                placeholder='10%'
                 className='outline ml-6' />
 
 
